@@ -1,4 +1,6 @@
+
 def angle_to_pwm(angle: float) -> int:
+
     # Make sure the angle is between 0 and 180 degrees
     angle = max(0, min(180, angle))
     
